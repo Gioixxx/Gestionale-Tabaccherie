@@ -158,9 +158,12 @@ dialog.lb.closing{animation:lbout .2s ease both}
   .js .reveal{opacity:1;transform:none}
 }
 
-.video-grid{display:grid;gap:32px;grid-template-columns:1fr;align-items:center}
-@media (min-width:800px){.video-grid{grid-template-columns:minmax(0,340px) 1fr}}
-.video-frame{position:relative;aspect-ratio:9/16;width:100%;max-width:340px;margin:0 auto;border-radius:18px;overflow:hidden;background:#000;border:1px solid var(--border);box-shadow:var(--shadow)}
+.video-row{display:grid;gap:28px;grid-template-columns:1fr;align-items:center;margin-top:28px}
+@media (min-width:860px){.video-row{grid-template-columns:minmax(0,1fr) 230px}}
+.video-frame{position:relative;aspect-ratio:16/9;width:100%;border-radius:18px;overflow:hidden;background:#000;border:1px solid var(--border);box-shadow:var(--shadow)}
+.video-frame.short{aspect-ratio:9/16;max-width:230px;margin:0 auto}
+.video-cap{margin:10px 0 0;text-align:center;font-size:.9rem;color:var(--muted)}
+.video-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
 .video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 </style>
 </head>
@@ -206,14 +209,26 @@ dialog.lb.closing{animation:lbout .2s ease both}
 </section>
 
 <section id="video">
-  <div class="wrap video-grid">
-    <div class="video-frame reveal">
-      <iframe src="https://www.youtube-nocookie.com/embed/dQNWftv1uks" title="Gestionale Tabacchi in breve (YouTube Short)" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  <div class="wrap">
+    <h2>Guardalo in azione</h2>
+    <p class="lead">La demo completa del gestionale e, a lato, una presentazione di meno di venti secondi.</p>
+    <div class="video-row">
+      <div class="reveal">
+        <div class="video-frame">
+          <iframe src="https://www.youtube-nocookie.com/embed/e-8x9LPi35c" title="Gestionale Tabacchi: demo completa del gestionale per tabaccheria (Windows)" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+        <p class="video-cap">Demo completa</p>
+      </div>
+      <div class="reveal">
+        <div class="video-frame short">
+          <iframe src="https://www.youtube-nocookie.com/embed/dQNWftv1uks" title="Gestionale Tabacchi in breve (YouTube Short)" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+        <p class="video-cap">In breve (Short)</p>
+      </div>
     </div>
-    <div>
-      <h2>Guardalo in azione</h2>
-      <p class="lead">In meno di venti secondi: cassa, giacenze, ordini Logista e fatture AdE.</p>
-      <p><a class="btn" href="https://www.youtube.com/shorts/dQNWftv1uks">Guarda su YouTube</a></p>
+    <div class="video-actions">
+      <a class="btn" href="https://www.youtube.com/watch?v=e-8x9LPi35c">Guarda la demo su YouTube</a>
+      <a class="btn" href="https://www.youtube.com/shorts/dQNWftv1uks">Guarda lo Short</a>
     </div>
   </div>
 </section>

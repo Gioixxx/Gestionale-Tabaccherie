@@ -14,9 +14,10 @@ Applicativo desktop per la gestione di tabaccherie, conforme alle normative ADM/
 
 ## Video
 
-[![Guarda il video su YouTube](https://img.shields.io/badge/Guarda_il_video-YouTube-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/shorts/dQNWftv1uks)
+[![Guarda la demo su YouTube](https://img.shields.io/badge/Guarda_la_demo-YouTube-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=e-8x9LPi35c)
 
-Meno di venti secondi per vedere il gestionale all'opera: [guarda lo Short su YouTube](https://www.youtube.com/shorts/dQNWftv1uks).
+- [Demo completa del gestionale](https://www.youtube.com/watch?v=e-8x9LPi35c): il programma all'opera, funzione per funzione.
+- [Presentazione in meno di venti secondi](https://www.youtube.com/shorts/dQNWftv1uks) (YouTube Short).
 
 ## Installazione
 
