@@ -62,10 +62,6 @@ Applicativo desktop per la gestione di tabaccherie, conforme alle normative ADM/
 - Connessione internet, per il download iniziale, gli aggiornamenti, il listino Logista e le fatture
 - Microsoft Visual C++ Redistributable x64 (installato automaticamente se manca)
 
-## Aggiornamenti
-
-L'applicativo controlla gli aggiornamenti all'avvio e si aggiorna da solo. Dalle impostazioni puoi scegliere il canale: **Stabile** per le versioni pronte all'uso, **Beta** per provare in anticipo le novità.
-
 ## Guida
 
 Il programma ha una guida integrata: in ogni pagina il pulsante **Guida**, accanto al titolo, apre il capitolo relativo, e lo stesso fa il tasto **F1**.
