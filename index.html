@@ -157,6 +157,11 @@ dialog.lb.closing{animation:lbout .2s ease both}
   *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
   .js .reveal{opacity:1;transform:none}
 }
+
+.video-grid{display:grid;gap:32px;grid-template-columns:1fr;align-items:center}
+@media (min-width:800px){.video-grid{grid-template-columns:minmax(0,340px) 1fr}}
+.video-frame{position:relative;aspect-ratio:9/16;width:100%;max-width:340px;margin:0 auto;border-radius:18px;overflow:hidden;background:#000;border:1px solid var(--border);box-shadow:var(--shadow)}
+.video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 </style>
 </head>
 <body>
@@ -164,7 +169,7 @@ dialog.lb.closing{animation:lbout .2s ease both}
   <div class="wrap">
     <div class="nav">
       <a class="brand" href="#">GESTIONALE<small>TABACCHI</small></a>
-      <nav><a class="link" href="#funzioni">Funzioni</a> &nbsp; <a class="link" href="#schermate">Schermate</a> &nbsp; <a class="link" href="#installazione">Installazione</a></nav>
+      <nav><a class="link" href="#funzioni">Funzioni</a> &nbsp; <a class="link" href="#video">Video</a> &nbsp; <a class="link" href="#schermate">Schermate</a> &nbsp; <a class="link" href="#installazione">Installazione</a></nav>
     </div>
     <div class="hero">
       <div>
@@ -196,6 +201,19 @@ dialog.lb.closing{animation:lbout .2s ease both}
       <div class="card reveal"><h3>Assistente IA</h3><p>Chiedi in italiano quanto hai incassato oggi, cosa è sotto scorta o come si usa una funzione.</p></div>
       <div class="card reveal"><h3>Estensione mobile</h3><p>Lo smartphone, sulla stessa rete Wi-Fi, per fotografare fatture e prodotti e controllare le giacenze.</p></div>
       <div class="card reveal"><h3>Utenti e backup</h3><p>Più operatori con permessi diversi, copie di sicurezza manuali e automatiche, ripristino da backup.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="video">
+  <div class="wrap video-grid">
+    <div class="video-frame reveal">
+      <iframe src="https://www.youtube-nocookie.com/embed/dQNWftv1uks" title="Gestionale Tabacchi in breve (YouTube Short)" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+    <div>
+      <h2>Guardalo in azione</h2>
+      <p class="lead">In meno di venti secondi: cassa, giacenze, ordini Logista e fatture AdE.</p>
+      <p><a class="btn" href="https://www.youtube.com/shorts/dQNWftv1uks">Guarda su YouTube</a></p>
     </div>
   </div>
 </section>
