@@ -12,8 +12,6 @@ Applicativo desktop per la gestione di tabaccherie, conforme alle normative ADM/
 
 [Scarica GestionaleTabacchi_Setup_1.2.0.9.exe](https://github.com/Gioixxx/Gestionale-Tabaccherie/releases/download/v1.2.0.9/GestionaleTabacchi_Setup_1.2.0.9.exe)
 
-Le versioni precedenti sono nella pagina delle [release](https://github.com/Gioixxx/Gestionale-Tabaccherie/releases).
-
 ## Installazione
 
 1. Scarica il file `GestionaleTabacchi_Setup_1.2.0.9.exe`.
