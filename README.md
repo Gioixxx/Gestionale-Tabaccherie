@@ -6,11 +6,11 @@ Applicativo desktop per la gestione di tabaccherie, conforme alle normative ADM/
 
 ## Download
 
-**Versione corrente: 1.2.0.9** — aggiornato il 31/10/2026
+**Versione corrente: 1.2.1.3** — aggiornato il 15/11/2026
 
-[![Download Setup](https://img.shields.io/badge/Download-Setup_v1.2.0.9-blue?style=for-the-badge&logo=windows)](https://github.com/Gioixxx/Gestionale-Tabaccherie/releases/download/v1.2.0.9/GestionaleTabacchi_Setup_1.2.0.9.exe)
+[![Download Setup](https://img.shields.io/badge/Download-Setup_v1.2.1.3-blue?style=for-the-badge&logo=windows)](https://github.com/Gioixxx/Gestionale-Tabaccherie/releases/download/v1.2.1.3/GestionaleTabacchi_Setup_1.2.1.3.exe)
 
-[Scarica GestionaleTabacchi_Setup_1.2.0.9.exe](https://github.com/Gioixxx/Gestionale-Tabaccherie/releases/download/v1.2.0.9/GestionaleTabacchi_Setup_1.2.0.9.exe)
+[Scarica GestionaleTabacchi_Setup_1.2.1.3.exe](https://github.com/Gioixxx/Gestionale-Tabaccherie/releases/download/v1.2.1.3/GestionaleTabacchi_Setup_1.2.1.3.exe)
 
 ## Video
 
@@ -21,7 +21,7 @@ Applicativo desktop per la gestione di tabaccherie, conforme alle normative ADM/
 
 ## Installazione
 
-1. Scarica il file `GestionaleTabacchi_Setup_1.2.0.9.exe`.
+1. Scarica il file `GestionaleTabacchi_Setup_1.2.1.3.exe`.
 2. Eseguilo come **Amministratore**.
 3. Segui la procedura guidata: l'applicativo viene scaricato e installato automaticamente.
 4. Al termine avvia **Gestionale Tabacchi** dal menu Start o dal Desktop.
